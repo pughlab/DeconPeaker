@@ -23,7 +23,7 @@ from rpy2.robjects import r, pandas2ri
 #-----------------------------------------------------
 # load own modules
 
-from utils import *
+from .utils import *
 
 #-----------------------------------------------------
 # global setting

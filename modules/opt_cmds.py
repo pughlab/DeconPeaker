@@ -16,8 +16,8 @@ import argparse
 # define options for deconPeaker
 
 def opts():
-    parser = argparse.ArgumentParser(description='deconPeaker - a deconvolution model to identify cell types based on \
-            chromatin accessibility in ATAC-Seq data of mixture samples.', version='version_1.0')
+    parser = argparse.ArgumentParser(description='deconPeaker - a deconvolution model to identify cell types based on chromatin \
+            accessibility in ATAC-Seq data of mixture samples.')
     subpar = parser.add_subparsers() # add sub parsers
 
     preprocess = subpar.add_parser('preprocess' , help='Create chromatin accessibility profile for pure samples, \

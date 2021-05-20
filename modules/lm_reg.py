@@ -9,7 +9,7 @@
 #-----------------------------------------------------
 # load own modules
 
-from utils import *
+from .utils import *
 
 #-----------------------------------------------------
 # global setting

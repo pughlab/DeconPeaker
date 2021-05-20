@@ -14,7 +14,7 @@ import subprocess
 #-----------------------------------------------------
 # load own modules
 
-from utils import *
+from .utils import *
 
 #-----------------------------------------------------
 # global setting
@@ -40,7 +40,7 @@ def convert_saf(bedfil, fg=True, upstream=500000, downstream=500000):
     '''
     suffix = '_foreground.saf' if fg else '_background.saf'
     safile = create_tmp_files(os.path.basename(bedfil) + suffix, fixnames=True)[0]
-    with open(bedfil, 'rb') as fp_r:
+    with open(bedfil, 'r') as fp_r:
         for line in fp_r:
             chrom, start, end = line.strip().split('\t')[0 : 3]
             if chrom == 'chrom': continue
@@ -100,8 +100,8 @@ def readcounts_matrix(count_files, cells, outfile, bak_offset=500000):
     
     '''
     count_files = count_files if isinstance(count_files, list) else [ count_files ]
-    fps = [ open(fil, 'rb') for fil in count_files ]
-    [ fp.readline() for fp in fps for idx in xrange(2) ]
+    fps = [ open(fil, 'r') for fil in count_files ]
+    [ fp.readline() for fp in fps for idx in range(2) ]
     with open(outfile, 'w') as fp_w:
         fp_w.write('chrom\tstart\tend\t{}\n'.format('\t'.join(cells)))
         if len(count_files) > 1:

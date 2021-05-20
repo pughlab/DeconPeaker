@@ -46,7 +46,7 @@ def preprocess():
     
     if ARGS.offset:
         LOGS.info('Filtering out the peaks nearby the TSS (+/-{} bps)'.format(ARGS.offset))
-	nonovp_peakfil = remove_peaks_nearbytss(nonovp_peakfil, ARGS.hg_genome, offset=ARGS.offset)
+        nonovp_peakfil = remove_peaks_nearbytss(nonovp_peakfil, ARGS.hg_genome, offset=ARGS.offset)
     
     peaknum = get_line_number(nonovp_peakfil)
     LOGS.info('Counting the number of fragments from each sample falling into each of {} peaks'.format(peaknum))
@@ -122,7 +122,7 @@ def deconvolution():
             ARGS.outdir      
         )
     LOGS.info('Showing deconPeaker results: ')
-    print >> sys.stderr, results
+    print(results, file=sys.stderr, end="")
     return 0
 
 def simulate():
