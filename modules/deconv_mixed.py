@@ -9,8 +9,8 @@
 #-----------------------------------------------------
 # load own modules
 
-from build_models import *
-from stat_plot    import *
+from .build_models import *
+from .stat_plot    import *
 
 #-----------------------------------------------------
 # global setting

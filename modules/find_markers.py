@@ -9,9 +9,9 @@
 #--------------------------------------------------------
 # load own modules
 
-from normalize_methods       import *
-from optimize_specific_peaks import *
-from lm_reg import get_cell_specific_pvals
+from .normalize_methods       import *
+from .optimize_specific_peaks import *
+from .lm_reg import get_cell_specific_pvals
 
 #--------------------------------------------------------
 # global setting

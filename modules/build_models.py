@@ -14,7 +14,7 @@ from rpy2.robjects   import r, pandas2ri
 #-----------------------------------------------------
 # load own modules
 
-from find_markers import *
+from .find_markers import *
 
 #-----------------------------------------------------
 # global setting

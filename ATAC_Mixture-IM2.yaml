@@ -1,0 +1,117 @@
+# This is a YML format file of refernce samples, including five keys and details as follows:
+# 1) sample_ID: unique sample ID for each sample.
+# 2) bam: BAM of aligned file path
+# 3) batch: batch ID of each sample, if cell type has replicates, batch ID must be the same.
+# 4) cellname: cell name of the pure sample.
+# 5) peak: peak file path of the sample.
+#
+# ##########################################################################################
+
+sample_0:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM10-IM.proc.srt.bam
+	batch: KOM10-IM_1
+	cellname: KOM10-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM10-IM.narrowPeak
+sample_1:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM11-IM.proc.srt.bam
+	batch: KOM11-IM_1
+	cellname: KOM11-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM11-IM.narrowPeak
+sample_10:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM12-IM.proc.srt.bam
+	batch: KOM12-IM_1
+	cellname: KOM12-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM12-IM.narrowPeak
+sample_11:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM.13-IM.proc.srt.bam
+	batch: KOM.13-IM_1
+	cellname: KOM.13-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM.13-IM.narrowPeak
+sample_12:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM.14-IM.proc.srt.bam
+	batch: KOM.14-IM_1
+	cellname: KOM.14-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM.14-IM.narrowPeak
+sample_13:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM15-IM.proc.srt.bam
+	batch: KOM15-IM_1
+	cellname: KOM15-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM15-IM.narrowPeak
+sample_14:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM18-IM.proc.srt.bam
+	batch: KOM18-IM_1
+	cellname: KOM18-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM18-IM.narrowPeak
+sample_15:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM20-IM.proc.srt.bam
+	batch: KOM20-IM_1
+	cellname: KOM20-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM20-IM.narrowPeak
+sample_18:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM21-IM.proc.srt.bam
+	batch: KOM21-IM_1
+	cellname: KOM21-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM21-IM.narrowPeak
+sample_19:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM22-IM.proc.srt.bam
+	batch: KOM22-IM_1
+	cellname: KOM22-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM22-IM.narrowPeak
+sample_2:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM24-IM.proc.srt.bam
+	batch: KOM24-IM_1
+	cellname: KOM24-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM24-IM.narrowPeak
+sample_20:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM25-IM.proc.srt.bam
+	batch: KOM25-IM_1
+	cellname: KOM25-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM25-IM.narrowPeak
+sample_21:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM28-IM.proc.srt.bam
+	batch: KOM28-IM_1
+	cellname: KOM28-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM28-IM.narrowPeak
+sample_22:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM2-IM.proc.srt.bam
+	batch: KOM2-IM_1
+	cellname: KOM2-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM2-IM.narrowPeak
+sample_23:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM31-IM.proc.srt.bam
+	batch: KOM31-IM_1
+	cellname: KOM31-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM31-IM.narrowPeak
+sample_24:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM32-IM.proc.srt.bam
+	batch: KOM32-IM_1
+	cellname: KOM32-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM32-IM.narrowPeak
+sample_25:
+	bam:
+	- /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Processed.ATAC.Samples/Bams_IM/KOM33-IM.proc.srt.bam
+	batch: KOM33-IM_1
+	cellname: KOM33-IM
+	peak: /mnt/work1/users/pughlab/projects/KOMBAT/atacseq_analysis/Sorted_ATACSeq_hg19/Peaks_KOM-Immune_BC/ATAC_Peaks_All/KOM33-IM.narrowPeak
+  
+  
+  
+  
+   
+

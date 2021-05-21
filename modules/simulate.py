@@ -9,8 +9,8 @@
 #-----------------------------------------------------
 # load own modules
 
-from bams import *
-from random_proportion import *
+from .bams import *
+from .random_proportion import *
 
 #-----------------------------------------------------
 # global setting
